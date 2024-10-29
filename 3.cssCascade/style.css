@@ -1,0 +1,31 @@
+h1 {
+  color: pink !important;
+}
+
+/* 0 1 0 0 */
+#title {
+  color: orange;
+}
+
+/* 0 0 2 0 */
+.title.primary-title {
+  color: blue;
+}
+
+/* 0 0 1 0 */
+.title {
+  color: red;
+}
+
+/* 0 0 0 1 */
+h1 {
+  color: green;
+}
+
+ul > li.c-green {
+  color: green;
+}
+
+ul > li {
+  color: red;
+}

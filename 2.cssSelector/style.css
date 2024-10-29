@@ -1,0 +1,56 @@
+/* h1 {
+  color: red;
+} */
+
+.title {
+  color: green;
+}
+
+#titleId {
+  color: blue;
+}
+
+input[type='text'] {
+  background-color: yellow;
+  /* border: none; */
+}
+
+.text1,
+.text2,
+.text3 {
+  color: red;
+}
+
+/* Adjacent sibling combinator */
+.h1 + .h3 {
+  color: red;
+}
+
+/* saudaraan (sibling) */
+.h1 ~ .h3 {
+  color: red;
+}
+
+.headings > h3 {
+  color: red;
+}
+
+.box > * {
+  border: 1px solid black;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background: #601feb;
+}
+
+.heading {
+  color: red;
+}
